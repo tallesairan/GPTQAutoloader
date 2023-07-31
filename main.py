@@ -99,4 +99,4 @@ async def inference(request: Request):
 
 
 if __name__ == "__main__":
-    uvicorn.run("main:app", port=9000, reload=True)
+    uvicorn.run("main:app", port=9000, host="192.168.0.5", reload=True)
