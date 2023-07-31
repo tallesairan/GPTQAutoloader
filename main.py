@@ -49,7 +49,7 @@ def extractArgumentsFromJson(jsonString):
 
 
 async def GenerateTextByPayload(request):
-    payload = request.json()
+    payload = await request.json()
 
     start_time = time.time()
 
