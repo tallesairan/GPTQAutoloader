@@ -1,4 +1,5 @@
 from asyncio import threads
+import uvicorn
 import os
 import torch
 import time
