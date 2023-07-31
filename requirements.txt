@@ -1,0 +1,8 @@
+transformers==4.31
+fastapi==0.68.1
+sentencepiece
+accelerate
+parallelformers
+asyncio
+httpx==0.21.1
+uvicorn==0.15.0
