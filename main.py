@@ -17,6 +17,7 @@ logging.basicConfig(
 
 
 def load_models():
+    global model_dict
     model_name_or_path = "TheBloke/Wizard-Vicuna-7B-Uncensored-GPTQ"
     model_basename = "Wizard-Vicuna-7B-Uncensored-GPTQ-4bit-128g.no-act.order"
     print('\tLoading model: Wizard-Vicuna-7B-Uncensored-GPTQ')
